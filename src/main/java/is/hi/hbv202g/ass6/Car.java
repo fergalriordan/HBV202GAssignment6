@@ -6,4 +6,12 @@ class Car {
     Car(String name) {
         this.name = name;
     }
+
+    //String getNameOfCar(CarOwner carOwner) {
+    //    return name;
+    //}
+
+    String getNameOfCar() {
+        return name;
+    }
 }
