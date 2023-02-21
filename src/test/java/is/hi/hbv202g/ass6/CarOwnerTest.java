@@ -7,17 +7,19 @@ import static org.junit.Assert.*;
 
 public class CarOwnerTest {
 
+    private static final String CAR_NAME = "Beetle";
+    private static final String OWNER_NAME = "John Doe";
     private Car car;
     private CarOwner carOwner;
 
     @Test
     public void getName() {
-        assertEquals("John Doe", carOwner.getName());
+        assertEquals(OWNER_NAME, carOwner.getName());
     }
 
     @Before 
     public void setUp() {
-        car = new Car("Beetle");
-        carOwner = new CarOwner("John Doe", car);
+        car = new Car(CAR_NAME);
+        carOwner = new CarOwner(OWNER_NAME, car);
     }
 }
