@@ -7,11 +7,7 @@ class Car {
         this.name = name;
     }
 
-    //String getNameOfCar(CarOwner carOwner) {
-    //    return name;
-    //}
-
-    String getNameOfCar() {
+    String getName() {
         return name;
     }
 }

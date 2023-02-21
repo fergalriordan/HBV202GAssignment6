@@ -9,7 +9,7 @@ public class CarTest {
     public void getNameOfCar() {
         Car car=new Car("Beetle");
         //CarOwner carOwner = new CarOwner("John Doe", car);
-        assertEquals("Beetle", car.getNameOfCar());
+        assertEquals("Beetle", car.getName());
     }
 
 }
